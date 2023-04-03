@@ -6,6 +6,7 @@
       <class name="testCases.Signup">
         <methods>
           <include name="openurl"/>
+          <include name="closeBrowser"/>
           <include name="Signup"/>
         </methods>
       </class> <!-- testCases.Signup -->

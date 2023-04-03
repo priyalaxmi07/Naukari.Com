@@ -35,17 +35,18 @@ public class Baseclass {
 }
 @BeforeMethod
 public void openurl() throws IOException {
+	System.setProperty("webdriver.http.factory", "jdk-http-client");
  driverInitilize();
  //This driver have scope
  String urlName= prop.getProperty("url");
  driver.get(urlName); 
 }
-/*
+
 @AfterMethod
 public void closeBrowser() {
   driver.quit();
 	}
 
- */
+ 
 
 }

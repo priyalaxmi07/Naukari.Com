@@ -6,15 +6,10 @@
       <class name="testCases.Signup">
         <methods>
           <include name="openurl"/>
+          <include name="closeBrowser"/>
           <include name="Signup"/>
         </methods>
       </class> <!-- testCases.Signup -->
-      <class name="testCases.Vlogin">
-        <methods>
-          <include name="openurl"/>
-          <include name="Vlogin"/>
-        </methods>
-      </class> <!-- testCases.Vlogin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

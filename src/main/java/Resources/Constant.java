@@ -14,4 +14,7 @@ public class Constant {
 	public static String currentWindow="cancel";
 	public static String  checkbox="freshar";
 	
+	
+	public void   pick_DocumentToBeUpload() {
+	}
 }

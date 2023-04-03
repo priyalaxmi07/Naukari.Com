@@ -6,8 +6,6 @@ import org.openqa.selenium.WebElement;
 
 public class LoginPageObj {
 
-	private static final By tryforFree = null;
-
 	public WebDriver driver;
 	public By Register=By.xpath("//a[@href='https://www.naukri.com/registration/createAccount?othersrcp=22636']");
 	private By username = By.xpath("//input[@id='usernameField']");
